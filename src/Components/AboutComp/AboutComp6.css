@@ -1,0 +1,21 @@
+.About6_Section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 60px;
+}
+
+.statsHover {
+    transition: transform 0.3s ease;
+}
+
+.statsHover:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width:1024px) {
+    .About6_Section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px 30px;
+    }
+}

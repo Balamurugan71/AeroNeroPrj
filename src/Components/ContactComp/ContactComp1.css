@@ -1,0 +1,113 @@
+.ContactComp1_Container {
+    position: relative;
+    width: 100%;
+    padding: 100px;
+}
+
+.ContactComp1_Holder {
+    padding: 0 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.Contact1Head {
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Contact1Para {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.Contact1Link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 26px;
+    color: #008cd0;
+    text-decoration: none;
+}
+
+.Contact1LinkIcon {
+    font-size: 35px;
+    margin-right: 9px;
+}
+
+.Contact1LinkText {
+    padding-left: 5px;
+    font-family: "Open Sans", sans-serif !important;
+    font-weight: 700;
+}
+
+.Contact1Social {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.Contact1SocialIcon {
+    font-size: 31px;
+    color: #008CD099;
+}
+
+@media (max-width:1024px) {
+    .ContactComp1_Container {
+        padding: 40px;
+    }
+
+    .ContactComp1_Holder {
+        padding: 0 22px;
+    }
+
+    .Contact1Head {
+        font-size: 36px;
+    }
+
+    .Contact1Para {
+        font-size: 18px;
+    }
+
+    .Contact1Link {
+        font-size: 18px;
+    }
+
+    .Contact1LinkIcon {
+        font-size: 28px;
+    }
+
+    .Contact1Social {
+        margin-top: 60px;
+    }
+
+    .Contact1SocialIcon {
+        font-size: 27px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .ContactComp1_Holder {
+        padding: 0px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .ContactComp1_Container {
+        padding: 50px 20px;
+    }
+
+    .Contact1Social {
+        margin-top: 50px;
+    }
+}

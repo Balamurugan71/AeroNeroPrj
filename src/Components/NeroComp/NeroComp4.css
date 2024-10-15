@@ -1,0 +1,181 @@
+.Nero4Container {
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    background-image: url(../../assets/Bubble-right2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 10% auto;
+}
+
+.Nero4Holder {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Nero4Section {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.Nero4Sect1 {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.About1_Section11 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.AboutImage1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.AboutImageSect1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centerNeroImg {
+    width: 206px;
+}
+
+.Nero4Card {
+    padding: 20px 10px;
+    border: 10px solid #fff;
+    border-radius: 15px;
+    background-color: #e4f6ff;
+    box-shadow: 0 0 10px 4px #0000001a;
+    display: flex;
+    flex-direction: row;
+}
+
+.Nero4Card:hover {
+    background-color: #fef1c2;
+}
+
+.Nero4Cardimg {
+    margin-right: 15px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.Nero4Cardimg img {
+    height: 85px;
+}
+
+
+.Nero4cardHead {
+    font-size: 15px;
+    font-weight: 700;
+    color: #008cd0;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    text-transform: uppercase;
+}
+
+.Nero4cardPara {
+    font-size: 18px;
+    color: #008cd0;
+    margin: 0;
+}
+
+@media (max-width:1024px) {
+    .Nero4Container {
+        padding: 40px;
+    }
+
+    .Nero4Section {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .centerNeroImg {
+        width: 236px;
+    }
+
+    .Nero4Card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Nero4Cardimg {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .Nero4Cardimg img {
+        height: 40px;
+    }
+
+
+    .Nero4cardHead,
+    .Nero4cardPara {
+        text-align: center;
+    }
+}
+
+@media (max-width:768px) {
+    .Nero4Sect1 {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        gap: 20px;
+    }
+
+    .centerNeroImg {
+        width: 163px;
+        height: 415px;
+    }
+}
+
+
+@media (max-width:425px) {
+
+    .Nero4Container {
+        padding: 50px 20px;
+    }
+
+    .Nero4Section {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .Nero4Sect1 {
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}

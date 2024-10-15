@@ -1,0 +1,213 @@
+.Nero6Container {
+    position: relative;
+    padding: 100px;
+    width: 100%;
+}
+
+.Nero6Holder {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Nero6Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Nero6Info {
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+    padding: 25px 200px;
+    background-color: #008cd0;
+    border: 10px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 4px #0000001a;
+}
+
+.package {
+    background-image: url(../../assets/Unbox-left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+}
+
+.package::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/Unbox-right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+}
+
+.charge {
+    background-image: url(../../assets/Plug-left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+}
+
+.charge::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/Plug-right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+}
+
+.wait {
+    background-image: url(../../assets/24hrs-left.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center left;
+}
+
+.wait::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/24hrs-right.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center right;
+}
+
+.Nero6Content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Nero6HeadCont {
+    padding: 10px;
+}
+
+.Nero6Head1 {
+    margin: 0;
+    color: #fff;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 23px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.3em;
+}
+
+.Nero6Head2 {
+    margin: 0;
+    color: #fef1c2;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.3em;
+}
+
+@media (max-width:1024px) {
+    .Nero6Container {
+        padding: 40px;
+    }
+
+    .Nero6Info {
+        padding: 25px 100px;
+    }
+
+    .Nero6Content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .Nero6Head1,
+    .Nero6Head2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:768px) {
+    .Nero6Content {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width:425px) {
+    .Nero6Container {
+        padding: 50px 20px;
+    }
+
+    .Nero6Info {
+        padding: 25px 60px;
+    }
+
+    .Nero6Content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .Nero6Head1,
+    .Nero6Head2 {
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .package {
+        background-size: 15% auto;
+        background-position: center left;
+    }
+
+    .package::before {
+        background-size: 15% auto;
+        background-position: 800 0;
+    }
+
+    .charge {
+        background-size: 15% auto;
+        background-position: center left;
+    }
+
+    .charge::before {
+        background-size: 15% auto;
+        background-position: 800 0;
+    }
+
+    .wait {
+        background-size: 15% auto;
+        background-position: center left;
+    }
+
+    .wait::before {
+        background-size: 15% auto;
+        background-position: 800 0;
+    }
+}

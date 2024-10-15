@@ -1,0 +1,146 @@
+.HomeComp6_Container {
+    position: relative;
+    width: 100%;
+    padding: 100px;
+}
+
+.HomeComp6_Holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.HeadComp6 {
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.ParaComp6 {
+    margin: 0;
+    text-align: center;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.HomeComp6Card {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.CardCont6 {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.ImageCont6 {
+    width: 100%;
+    padding: 30px 30px 10px 30px;
+    background-color: #E4F6FF;
+    border-radius: 10px;
+}
+
+.ImageCont6:hover {
+    background-color: #FEF1C2;
+}
+
+.ImageCard6 {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 15px;
+}
+
+.ContentCont6 h2 {
+    color: #008cd0;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.ContentCont6 p {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width:1024px) {
+    .HomeComp6_Container {
+        padding: 40px;
+    }
+
+    .ImageCont6 {
+        padding: 20px 20px 0px 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ImageCard6 {
+        width: 55px;
+        height: 55px;
+    }
+
+    .ContentCont6 h2 {
+        font-size: 15px;
+    }
+
+    .HeadComp6 {
+        font-size: 32px;
+    }
+
+    .ParaComp6 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    .HomeComp6Card {
+        gap: 0px;
+    }
+}
+
+@media (max-width:425px) {
+    .HomeComp6_Container {
+        padding: 50px 20px;
+    }
+
+    .ImageCont6 {
+        padding: 20px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .ImageCard6 {
+        width: 70px;
+        height: 70px;
+    }
+
+    .ContentCont6 h2 {
+        font-size: 18px;
+    }
+
+    .HomeComp6Card {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+    }
+}

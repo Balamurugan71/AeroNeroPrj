@@ -1,0 +1,29 @@
+.About2_Head {
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.About2_Para {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+@media (max-width:1024px) {
+    .About2_Head {
+        font-size: 32px;
+    }
+
+    .About2_Para {
+        font-size: 20px;
+    }
+}

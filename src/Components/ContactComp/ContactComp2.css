@@ -1,0 +1,64 @@
+.ContactComp2_Container {
+    position: relative;
+    padding: 10px 80px;
+}
+
+.FooterForm1 {
+    padding: 20px;
+    background-color: #fff;
+    color: #008cd0;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.ContactFooter {
+    display: none;
+    position: relative;
+    width: 100%;
+    padding: 0 80px;
+}
+
+.ContactFooterHolder {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ContactFooterSection1 {
+    width: 100%;
+    padding: 10px;
+}
+
+.FooterContactPara {
+    margin: 0;
+    text-align: right;
+}
+
+@media (max-width:1024px) {
+
+    .ContactComp2_Container {
+        padding: 10px;
+    }
+
+    .ContactFooter {
+        display: block;
+    }
+}
+
+
+@media (max-width:425px) {
+
+    .ContactFooterHolder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .FooterContactPara {
+        margin: 0;
+        text-align: center;
+    }
+}

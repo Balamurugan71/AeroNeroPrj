@@ -1,0 +1,156 @@
+.HomeComp7_Container {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.HomeComp7_Holder {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.HomeComp7_Section {
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px;
+    background-color: #F1FAFF;
+    border: 1px solid #008cd0;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.PurifyCont,
+.PurifyPara,
+.PurifyButtonCont {
+    flex: 0 1 auto;
+    padding: 10px;
+}
+
+.PurifyCont {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.PurifyCont img {
+    width: 52px;
+    height: 52px;
+    margin-right: 15px;
+}
+
+.PurifyCont h3 {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 0;
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.PurifyPara {
+    width: 48%;
+}
+
+.PurifyPara p {
+    margin-bottom: 0;
+    text-align: left;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.PurifyButtonCont {
+    width: 30%;
+}
+
+.PurifyButton {
+    background-color: #ffcb04;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px 25px 15px 25px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.PurifyLink {
+    color: #14526F !important;
+    text-decoration: none !important;
+    margin: 0;
+}
+
+.HomeComp7_Containera {
+    position: relative;
+    width: 100%;
+    padding: 100px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+@media (max-width:1024px) {
+    .HomeComp7_Container {
+        padding: 0 40px;
+    }
+
+    .HomeComp7_Containera {
+        padding: 40px 40px 0 40px;
+    }
+}
+
+@media (max-width:425px) {
+    .HomeComp7_Container {
+        padding: 0 20px;
+    }
+
+    .HomeComp7_Section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .PurifyCont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .PurifyCont h3 {
+        text-align: center;
+    }
+
+    .PurifyPara {
+        width: 100%;
+    }
+
+    .PurifyPara p {
+        text-align: center;
+    }
+
+    .PurifyButtonCont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .HomeComp7_Containera {
+        padding: 50px 20px 20px 20px;
+    }
+}

@@ -1,0 +1,110 @@
+.HomeComp1_Container {
+    position: relative;
+    width: 100%;
+    min-height: 737px;
+    overflow: hidden;
+}
+
+.HomeComp1_Container::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/bg-shadow.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.BGC_Video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.ContentContainerHome {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0 100px;
+}
+
+.ContentHolderHome {
+    height: 100%;
+    margin: 0 125px;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.HomeHead {
+    text-align: center;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: #64ccff;
+    font-weight: 700;
+}
+
+.HomeHeadS {
+    color: #fff590;
+}
+
+.HomePara {
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+@media (max-width:1024px) {
+    .HomeComp1_Container {
+        min-height: 637px;
+    }
+
+    .ContentContainerHome {
+        padding: 0 40px;
+    }
+
+    .ContentHolderHome {
+        margin: 0 22px;
+        padding: 40px 0;
+    }
+
+    .HomeHead {
+        font-size: 60px;
+    }
+
+    .HomePara {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    .HomeComp1_Container {
+        min-height: 537px;
+    }
+
+    .ContentHolderHome {
+        margin: 0;
+    }
+
+    .HomeHead {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:425px) {
+    .HomeComp1_Container {
+        min-height: 537px;
+    }
+}

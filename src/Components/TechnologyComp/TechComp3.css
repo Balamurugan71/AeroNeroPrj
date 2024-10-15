@@ -1,0 +1,115 @@
+.TechComp3_Container {
+    position: relative;
+    padding: 10px;
+}
+
+.TechComp3_Holder {
+    margin: 0 165px;
+}
+
+.TechComp3_Section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Tech3Cont {
+    margin-top: 30px;
+    border: 1px solid #008cd0;
+    background-color: #f1faff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.TechContent {
+    width: 60%;
+    padding: 50px 0px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.TechContent p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.TechPDFButton {
+    background-color: #008cd0;
+    font-family: "Poppins", Sans-serif !important;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff !important;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, .25);
+    padding: 15px 25px;
+}
+
+.Tech3Image {
+    width: 40%;
+}
+
+@media (max-width:1024px) {
+    .TechComp3_Container {
+        position: relative;
+        padding: 40px;
+    }
+
+    .TechComp3_Holder {
+        margin: 0px;
+    }
+
+    .TechContent {
+        padding: 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .TechContent {
+        gap: 0px;
+    }
+
+    .Tech3Image {
+        width: 40%;
+        height: 100%;
+    }
+}
+
+@media (max-width:425px) {
+
+    .TechComp3_Container {
+        padding: 20px;
+    }
+
+    .Tech3Cont {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .TechContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .TechContent p {
+        text-align: center;
+    }
+
+    .Tech3Image {
+        width: 100%;
+        height: 100%;
+    }
+}

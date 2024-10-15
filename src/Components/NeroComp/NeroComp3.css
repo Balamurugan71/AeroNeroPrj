@@ -1,0 +1,157 @@
+.Nero3Container {
+    position: relative;
+    width: 100%;
+    background-image: url(../../assets/Bubble-left2.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 10% auto;
+    padding: 100px;
+}
+
+.Nero3Holder {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Nero3AccordionSect {
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Nero3Accordion {
+    margin-bottom: 40px;
+    width: 995px;
+    border: 10px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 4px #0000001a;
+    background-color: #e4f6ff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.AccordionImage {
+    width: 25%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.AccordionImage img {
+    display: none;
+    width: 98px;
+    height: 98px;
+}
+
+.AccordionContent {
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+
+.AccordionContent h2 {
+    color: #008cd0;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.AccordionContent p {
+    margin-top: 10px;
+    display: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.AccordionContent img {
+    display: none;
+    width: 61px;
+    height: 61px;
+}
+
+.Nero3Accordion:hover {
+    background-color: #fef1c2;
+    padding: 10px;
+}
+
+.Nero3Accordion:hover .AccordionImage img {
+    display: inline-block;
+}
+
+.Nero3Accordion:hover .AccordionContent p {
+    display: block;
+}
+
+@media (max-width:1024px) {
+    .Nero3Container {
+        padding: 40px;
+    }
+
+    .Nero3Accordion {
+        width: 100%;
+    }
+
+    .AccordionImage img {
+        width: 91px;
+        height: 91px;
+    }
+
+    .AccordionContent p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+
+    .AccordionImage img {
+        width: 61px;
+        height: 61px;
+    }
+
+
+    .Nero3Accordion:hover .AccordionContent h2 {
+        padding-top: 25px;
+    }
+
+}
+
+@media (max-width:425px) {
+    .Nero3Container {
+        padding: 50px 20px;
+    }
+
+    .AccordionImage {
+        width: 0;
+    }
+
+    .AccordionContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .AccordionContent h2 {
+        font-size: 20px;
+    }
+
+    .Nero3Accordion:hover .AccordionImage img {
+        display: none;
+    }
+
+    .Nero3Accordion:hover .AccordionContent img {
+        display: inline-block;
+    }
+}

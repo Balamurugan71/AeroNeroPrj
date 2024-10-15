@@ -1,0 +1,15 @@
+.MarqueeSlider {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.MarqueeText {
+    color: #008CD0;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-right: 80px;
+}

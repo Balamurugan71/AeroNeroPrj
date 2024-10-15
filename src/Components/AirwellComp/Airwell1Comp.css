@@ -1,0 +1,48 @@
+.airwellComp {
+    position: relative;
+    background-image: url(../../assets/blue-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 892px;
+    padding: 100px;
+}
+
+.airwellComp::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    opacity: 0.5;
+    background-image: url(../../assets/Airwell-1.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+@media (max-width:1024px) {
+    .airwellComp {
+        height: 621px;
+        padding: 40px;
+    }
+}
+
+@media (max-width:768px) {
+    .airwellComp {
+        height: 490px;
+        padding: 40px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .airwellComp {
+        height: 880px;
+        padding: 20px;
+    }
+}

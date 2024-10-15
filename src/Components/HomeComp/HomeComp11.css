@@ -1,0 +1,255 @@
+.Home11_Container {
+    display: block;
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    overflow: hidden;
+}
+
+.Home11_Holder {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Home11_Section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.TabButton {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600px;
+    font-family: "Poppins", sans-serif !important;
+    background-color: #F2EFEF;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+    color: #333333;
+    border-radius: 100px;
+}
+
+.TabListButton {
+    padding: 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.TabListButton.selected {
+    background-color: #008cd0 !important;
+    border-radius: 100px;
+    color: #fff !important;
+}
+
+.TableCont {
+    padding: 0 10px;
+    border: 15px solid #fff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.Table11 {
+    width: 100%;
+}
+
+
+.Table11Head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Table11Head img {
+    display: block;
+    width: 49px;
+    height: 49px;
+}
+
+.TableH1 {
+    width: 25%;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: #008cd0;
+    border-top-left-radius: 15px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+
+.TableH1 h3 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Poppins", Sans-serif !important;
+    margin-bottom: 28px;
+    margin-top: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.TableH2 {
+    width: 25%;
+    padding: 20px;
+    background-color: #ffcb04;
+    border-top: 1px solid #ffcb04;
+    border-bottom: 1px solid #ffcb04;
+}
+
+.TableH3,
+.TableH4 {
+    width: 25%;
+    padding: 20px;
+    background-color: #008cd0;
+    border-bottom: 1px solid #008cd0;
+}
+
+.TableH4 {
+    border-left: 1px solid #fff;
+    border-top-right-radius: 15px;
+}
+
+.Table11Head h3 {
+    text-align: center;
+    margin-top: 8px;
+    color: #fff;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.Row1 {
+    background-color: #008cd0;
+    border-right: 1px solid #fff;
+    padding: 0 35px 35px 35px;
+}
+
+.Row2,
+.Row3,
+.Row4 {
+    border-right: 1px solid #008cd06b;
+    padding: 0 35px 35px 35px;
+}
+
+.leftRadius {
+    border-bottom-left-radius: 15px;
+}
+
+.rightRadius {
+    border-bottom-right-radius: 15px !important;
+    border-bottom: 1px solid #008cd06b;
+}
+
+.bottomRadius {
+    border-bottom: 1px solid #008cd06b;
+}
+
+.Row1 span {
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.Row2 span {
+    color: #109c0d;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+.Row3 span,
+.Row4 span {
+    color: #7aa9d6;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1em;
+}
+
+@media (max-width:1024px) {
+    .Home11_Container {
+        padding: 40px;
+    }
+
+    .Table11Head img {
+        display: none;
+    }
+
+    .Table11Head {
+        display: block;
+    }
+
+    .Table11Head h3 {
+        text-align: center;
+    }
+
+    .TableH1 h3 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .TableH1,
+    .TableH2,
+    .TableH3,
+    .TableH4 {
+        width: auto;
+        padding: 10px;
+    }
+}
+
+@media (max-width:425px) {
+    .Home11_Container {
+        display: none;
+    }
+
+    /* .TableCont {
+        width: 385px;
+        white-space: nowrap;
+        overflow-x: auto;
+    }
+
+    .Table11 {
+        width: 768px;
+        display: inline-block;
+    }
+
+    .Row1,
+    .Row2,
+    .Row3,
+    .Row4 {
+        padding: 0 15px 35px 15px;
+    }
+
+    .Row1 span,
+    .Row2 span,
+    .Row3 span,
+    .Row4 span {
+        font-size: 14px;
+    }
+
+    .Table11Head h3 {
+        font-size: 15px;
+    } */
+}

@@ -1,0 +1,28 @@
+.TechComp1_Container {
+    position: relative;
+    width: 100%;
+}
+
+.Tech_Video {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Tech_Video1 {
+    display: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:425px) {
+    .Tech_Video {
+        display: none;
+    }
+
+    .Tech_Video1 {
+        display: block;
+    }
+}

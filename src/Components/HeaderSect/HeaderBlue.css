@@ -1,0 +1,185 @@
+.aeHeaderBlue {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #008cd0f0 !important;
+}
+
+.navBarCont {
+    position: relative;
+    width: 100%;
+}
+
+.navBarHolder {
+    width: 100%;
+    padding: 5px 100px 0 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar {
+    width: 100% !important;
+}
+
+.navbar-toggler {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.menuBarsBlue {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.NavLogo {
+    position: relative;
+    z-index: 1090 !important;
+}
+
+.EnquireIconBlue {
+    position: relative;
+    z-index: 1090 !important;
+    font-size: 26px;
+    color: #008cd0;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.EnquireIconBlue:hover {
+    transform: scale(1.1);
+}
+
+.offcanvas {
+    width: 100% !important;
+    background: linear-gradient(90deg, #005883 50%, #f2295b00 100%) !important;
+    color: #fff !important;
+    border: none !important;
+}
+
+.offcanvas-header {
+    display: block !important;
+    padding-left: 100px;
+}
+
+.CloseNavBlue {
+    background-color: #ffffff00;
+    border: none;
+    box-shadow: none;
+    font-size: 44px;
+    color: #ffffff;
+    transition: all 2s ease-in-out;
+    transform: rotate(90deg);
+}
+
+.CloseNavBlue:hover>.menuClose {
+    animation: rotate 2s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.offcanvas-body {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.navBarUl {
+    padding-top: 10px;
+    padding-left: 50px;
+    list-style-type: none;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+
+.nav-link {
+    position: relative;
+    padding: 5px 0;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.active {
+    color: #fef1c3 !important;
+}
+
+.subNav {
+    list-style-type: none;
+}
+
+.nav-link1 {
+    position: relative;
+    padding: 5px 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-link::after,
+.nav-link1::after {
+    content: '';
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom left;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-link:hover::after,
+.nav-link1:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.arrowIcon {
+    font-size: 38px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width:1024px) {
+    .navBarHolder {
+        padding: 5px 40px 0 40px;
+    }
+
+    .offcanvas {
+        background: linear-gradient(90deg, #005883 80%, #F2295B00 100%) !important;
+    }
+
+    .offcanvas-header {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width:425px) {
+    .navBarHolder {
+        padding: 0px 0px 0 0px;
+    }
+
+    .offcanvas {
+        background: #005883 !important;
+    }
+
+    .offcanvas-header {
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,92 @@
+.Home13_Container {
+    position: relative;
+    padding: 100px 0;
+    width: 100%;
+}
+
+.Home13_Holder {
+    display: flex;
+    flex-direction: column;
+}
+
+.SliderCont {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.HomeSlider .swiper-slide {
+    opacity: 2;
+}
+
+.bgImageSlider {
+    position: relative;
+    border-radius: 25px;
+    width: 416px;
+    height: 350px;
+    background: no-repeat 50%;
+    background-size: cover;
+}
+
+.neha {
+    background-image: url(../../assets/neha.png);
+}
+
+.pat {
+    background-image: url(../../assets/pat.png);
+}
+
+.kiren {
+    background-image: url(../../assets/kiren.png);
+}
+
+.suba {
+    background-image: url(../../assets/suba.jpeg);
+}
+
+.nane {
+    background-image: url(../../assets/nane.jpeg);
+}
+
+.relja {
+    background-image: url(../../assets/relja.jpeg);
+}
+
+.PlayIconDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.PlayIcon {
+    height: 100px;
+    width: 100px;
+    filter: drop-shadow(1px 0 6px rgba(0, 0, 0, .3));
+    color: #ffffffcc !important;
+}
+
+@media (max-width:1024px) {
+    .bgImageSlider {
+        width: 308px;
+        height: 270px;
+    }
+}
+
+@media (max-width:768px) {
+    .bgImageSlider {
+        width: 359px;
+        height: 270px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .Home13_Container {
+        padding: 50px 20px;
+    }
+
+    .bgImageSlider {
+        width: 385px;
+        height: 230px;
+    }
+}

@@ -1,0 +1,193 @@
+.Nero1Container {
+    position: relative;
+    background-image: url(../../assets/blue-bg.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 892px;
+    padding: 100px;
+}
+
+.Nero1Container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 0;
+    opacity: 0.5;
+    background-image: url(../../assets/NERONERO-Vertical.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.Nero1Holder {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Nero1Section1 {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Nero1Section2 {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.Nero1Product {
+    height: 526px;
+    object-fit: contain;
+}
+
+.Nero1Section3 {
+    width: 100%;
+    padding: 10px;
+    display: none;
+    justify-content: center;
+}
+
+.Nero1HeadSect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.Nero1Head {
+    color: #ffcb04;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 76px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin: 0;
+}
+
+.Nero1Para1 {
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Nero1Para2 {
+    text-align: left;
+    color: #fff;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.Nero1Button {
+    display: block;
+    margin-top: 1rem;
+    background-color: #ffffff;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+    color: #008CD0;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 35px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.Nero1Button1 {
+    margin-top: 1rem;
+    background-color: #ffffff;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 15px;
+    font-weight: 600;
+    color: #008CD0;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    padding: 15px 35px;
+    line-height: 1;
+    cursor: pointer;
+}
+
+@media (max-width:1024px) {
+    .Nero1Container {
+        height: 621px;
+        padding: 40px;
+    }
+
+    .Nero1Product {
+        height: 461px;
+    }
+
+    .Nero1Head {
+        font-size: 60px;
+    }
+
+    .Nero1Para1,
+    .Nero1Para2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    .Nero1Container {
+        height: 490px;
+        padding: 40px;
+    }
+
+    .Nero1Product {
+        height: 330px;
+    }
+}
+
+@media (max-width:425px) {
+
+    .Nero1Container {
+        height: 880px;
+        padding: 20px;
+    }
+
+    .Nero1Holder {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .Nero1Section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Nero1Section3 {
+        display: flex;
+    }
+
+    .Nero1Head {
+        font-size: 54px;
+    }
+
+    .Nero1Para1,
+    .Nero1Para2 {
+        text-align: center;
+    }
+
+    .Nero1Button {
+        display: none;
+    }
+}

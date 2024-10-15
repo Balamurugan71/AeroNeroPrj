@@ -1,0 +1,43 @@
+.About5_Container {
+    position: relative;
+    width: 100%;
+    padding: 0 100px 50px 100px;
+}
+
+.About5_Content_Head {
+    text-align: center;
+    color: #008cd0;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+.pradeep {
+    background-image: url(../../assets/Pradeep-Kattakkil-Advisor.png);
+}
+
+.bob {
+    background-image: url(../../assets/Bob-Murari-Advisor.png);
+}
+
+.meera {
+    background-image: url(../../assets/Meera-Siva-Advisor.png);
+}
+
+.raj {
+    background-image: url(../../assets/Raj-Murari-Advisor.png);
+}
+
+@media (max-width:1024px) {
+    .About5_Container {
+        padding: 40px;
+    }
+}
+
+@media (max-width:425px) {
+    .About5_Container {
+        padding: 0 20px 50px 20px;
+    }
+}

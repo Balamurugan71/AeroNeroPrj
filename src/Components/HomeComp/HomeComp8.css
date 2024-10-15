@@ -1,0 +1,118 @@
+.HomeComp8_Container {
+    position: relative;
+    width: 100%;
+    padding: 100px 100px 0 100px;
+}
+
+.HomeComp8_Holder {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.ImageCont8 {
+    display: block;
+    padding: 10px;
+    width: 100%;
+}
+
+.ImageCont8 img {
+    width: 75%;
+}
+
+.CardCont8 {
+    padding: 10px;
+    width: 100%;
+}
+
+.CardSect {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+}
+
+.Card8 {
+    padding: 30px;
+    background-color: #e4f6ff;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card8:hover {
+    background-color: #fef1c2;
+}
+
+.CardImageSect {
+    width: 100%;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.CardImageSect img {
+    width: 95px;
+    height: 95px;
+}
+
+.CardContentSect {
+    color: #008cd0;
+    text-align: center;
+}
+
+.CardContentSect h2 {
+    margin-top: 8px;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.CardContentSect p {
+    margin: 0;
+    font-family: "Maven Pro", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+@media (max-width:1024px) {
+    .HomeComp8_Container {
+        padding: 40px;
+    }
+
+    .HomeComp8_Holder {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CardSect {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+    }
+}
+
+@media (max-width:425px) {
+    .HomeComp8_Container {
+        padding: 50px 20px;
+    }
+
+    .ImageCont8 {
+        display: none;
+    }
+
+    .CardSect {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+}
